@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ancho_miniatura">200dp</dimen>
+
+    <bool name="isTablet">true</bool>
+</resources>

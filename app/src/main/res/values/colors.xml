@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18C67F</color>
+    <color name="colorPrimaryDark">#009452</color>
+    <color name="colorAccent">#63faaf</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#365899</color>
+    <color name="black">#2d2d2d</color>
+    <color name="yellow">#FFD935</color>
+    <color name="red">#BF360C</color>
+
+    <color name="line_bg_anime">#FF1043</color>
+    <color name="fab_bg_anime">#cc0c35</color>
+    <color name="black_anime">#3B3B3B</color>
+</resources>

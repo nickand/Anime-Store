@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Anime Station</string>
+    <string name="action_settings">Settings</string>
+    <string name="description_app">Description</string>
+    <string name="read_more">Show more</string>
+    <string name="app_category">Category</string>
+    <string name="app_type">App</string>
+    <string name="rights">© Merlin</string>
+    <string name="go_to_web">VISIT PAGE</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="you_are_offline">You are offline</string>
+    <string name="show_less">Show less</string>
+    <string name="lorem">ASJDHFA;SDJFHAS;DKJFHASD;KJFHSADK;FHAS;DKJFAKS;DHFAKSJDKASDHF;KAJSHFAS;DJKFHJSAKHFAKSDJHFJKSDHFAS;KJHFASDKFSHJFKSD</string>
+    <string name="merlin">merlin.</string>
+    <string name="error_network">Problemas de conexión</string>
+    <string name="category">Categories</string>
+    <string name="about_me">About me</string>
+</resources>

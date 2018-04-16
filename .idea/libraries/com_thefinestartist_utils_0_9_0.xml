@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.thefinestartist:utils-0.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/utils-0.9.0.aar/b514599b228c7f9f99a3c55ea5108570/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/utils-0.9.0.aar/b514599b228c7f9f99a3c55ea5108570/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thefinestartist/utils/0.9.0/8939853007fbf1023b690e58d6cf230d2e6a5ab5/utils-0.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description_app">Description</string>
+    <string name="read_more">Show more</string>
+    <string name="app_category">Category</string>
+    <string name="app_type">App</string>
+    <string name="rights">© Merlin</string>
+    <string name="go_to_web">VISIT PAGE</string>
+    <string name="show_less">Show less</string>
+    <string name="category">Categories</string>
+    <string name="about_me">About me</string>
+</resources>

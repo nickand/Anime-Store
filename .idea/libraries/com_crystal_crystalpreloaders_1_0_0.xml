@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.crystal:crystalpreloaders-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crystalpreloaders-1.0.0.aar/32a27a74923eb53c3015429efbb732ed/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crystalpreloaders-1.0.0.aar/32a27a74923eb53c3015429efbb732ed/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crystal/crystalpreloaders/1.0.0/9c9f48c422e42146287de3158386b439e0d68ee7/crystalpreloaders-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
