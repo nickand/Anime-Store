@@ -9,36 +9,43 @@ import android.os.Parcelable
 data class AnimeApiResponse(var data: List<AnimeData?>)
 
 //region AnimeData POJO
-data class AnimeData(var attributes: AnimeAttributes) : Parcelable {
-    constructor(parcel: Parcel) : this(readParcelable())
+data class AnimeData(
+    var id: Int,
+    var type: String,
+    var attributes: AnimeAttributes): Parcelable {
+    constructor(source: Parcel): this(
+        source.readInt(),
+        source.readString(),
+        source.readParcelable<AnimeAttributes>(AnimeAttributes::class.java.classLoader)
+    )
 
-    override fun writeToParcel(p0: Parcel?, p1: Int) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun describeContents() = 0
+
+    override fun writeToParcel(dest: Parcel, flags: Int) = with(dest) {
+        writeInt(id)
+        writeString(type)
+        writeParcelable(attributes, 0)
     }
 
-    override fun describeContents(): Int {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    companion object CREATOR : Parcelable.Creator<AnimeData> {
-        override fun createFromParcel(parcel: Parcel): AnimeData {
-            return AnimeData(parcel)
-        }
-
-        override fun newArray(size: Int): Array<AnimeData?> {
-            return arrayOfNulls(size)
+    companion object {
+        @JvmField
+        val CREATOR: Parcelable.Creator<AnimeData> = object: Parcelable.Creator<AnimeData> {
+            override fun createFromParcel(source: Parcel): AnimeData = AnimeData(source)
+            override fun newArray(size: Int): Array<AnimeData?> = arrayOfNulls(size)
         }
     }
 }
 //endregion
 
-private fun readParcelable(): AnimeAttributes {
-    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-}
-
+//region AnimePosterImage POJO
 data class AnimePosterImage(var medium: String)
-data class AnimeCoverImage(var large: String)
+//endregion
 
+//region AnimeCoverImage POJO
+data class AnimeCoverImage(var large: String)
+//endregion
+
+//region AnimeAttributes POJO
 data class AnimeAttributes(
         var createdAt: String,
         var synopsis: String,
@@ -85,3 +92,4 @@ data class AnimeAttributes(
         }
     }
 }
+//endregion

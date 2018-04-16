@@ -106,7 +106,12 @@ class DetailFragment : BaseFragment(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.id) {
-            R.id.btnGoToWeb -> mListener!!.openWebView(activity, data!!.attributes.posterImage.toString())
+            R.id.btnGoToWeb -> {
+                val type: String = data!!.type
+                val id: String = data!!.id.toString()
+                val url = "$type/$id"
+                mListener!!.openWebView(activity, "https://kitsu.io/$url")
+            }
             R.id.tvShowMore -> setShowMoreOrLess()
         }
     }

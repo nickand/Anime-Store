@@ -1,5 +1,6 @@
-# Anime Store
-- [Apk download link](https://drive.google.com/open?id=1eFLItNcjO2_ktTlMiz2lSqgnj5QLT9AD)
+# Reddit app
+- [Merlin android application test](https://drive.google.com/open?id=0B-XQMsXb-nYZQTJIaWJGQUdEaEU)
+- [Apk download link](https://drive.google.com/open?id=0B-XQMsXb-nYZNk53ZkUxWEdlZHM)
 
 Contents table
 -----------------
@@ -12,7 +13,7 @@ Technical specifications
 -------------
 
 - Android 4+
-- [Services](https://kitsu.io/explore/anime)
+- [Services](https://www.reddit.com/reddits.json)
 
 Libraries
 ---------------

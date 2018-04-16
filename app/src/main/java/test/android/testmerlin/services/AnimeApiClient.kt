@@ -22,7 +22,7 @@ class AnimeApiClient(mContext: Context) {
 
     interface AnimeApiInterface {
 
-        @get:GET("api/edge/anime")
+        @get:GET("/api/edge/anime")
         val animeList: Call<AnimeApiResponse>
 
         //@GET("{path}.json")
@@ -31,7 +31,7 @@ class AnimeApiClient(mContext: Context) {
 
     companion object {
 
-        val BASE_URL = "https://kitsu.io/"
+        val BASE_URL = "https://kitsu.io"
 
         private var retrofit: Retrofit? = null
 
